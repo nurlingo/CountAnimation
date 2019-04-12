@@ -8,13 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class StatsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        view.backgroundColor = .black
+        
+        let statsStackView = StatsStackView(frame: view.frame)
+        view.addSubview(statsStackView)
     }
-
 
 }
 

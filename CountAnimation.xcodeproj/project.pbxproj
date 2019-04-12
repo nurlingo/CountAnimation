@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		B76028A92261375300CD497B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76028A82261375300CD497B /* AppDelegate.swift */; };
-		B76028AB2261375300CD497B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76028AA2261375300CD497B /* ViewController.swift */; };
+		B76028AB2261375300CD497B /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76028AA2261375300CD497B /* StatsViewController.swift */; };
 		B76028AE2261375300CD497B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B76028AC2261375300CD497B /* Main.storyboard */; };
 		B76028B02261375700CD497B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B76028AF2261375700CD497B /* Assets.xcassets */; };
 		B76028B32261375700CD497B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B76028B12261375700CD497B /* LaunchScreen.storyboard */; };
+		B76028BB226142F200CD497B /* CountingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76028BA226142F200CD497B /* CountingLabel.swift */; };
+		B76028BD2261471000CD497B /* StatsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76028BC2261471000CD497B /* StatsStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B76028A52261375300CD497B /* CountAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B76028A82261375300CD497B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B76028AA2261375300CD497B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B76028AA2261375300CD497B /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
 		B76028AD2261375300CD497B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B76028AF2261375700CD497B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B76028B22261375700CD497B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B76028B42261375700CD497B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B76028BA226142F200CD497B /* CountingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingLabel.swift; sourceTree = "<group>"; };
+		B76028BC2261471000CD497B /* StatsStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				B76028A82261375300CD497B /* AppDelegate.swift */,
-				B76028AA2261375300CD497B /* ViewController.swift */,
+				B76028AA2261375300CD497B /* StatsViewController.swift */,
+				B76028BC2261471000CD497B /* StatsStackView.swift */,
+				B76028BA226142F200CD497B /* CountingLabel.swift */,
 				B76028AC2261375300CD497B /* Main.storyboard */,
 				B76028AF2261375700CD497B /* Assets.xcassets */,
 				B76028B12261375700CD497B /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B76028AB2261375300CD497B /* ViewController.swift in Sources */,
+				B76028AB2261375300CD497B /* StatsViewController.swift in Sources */,
+				B76028BB226142F200CD497B /* CountingLabel.swift in Sources */,
 				B76028A92261375300CD497B /* AppDelegate.swift in Sources */,
+				B76028BD2261471000CD497B /* StatsStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
